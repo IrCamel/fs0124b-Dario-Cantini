@@ -1,0 +1,14 @@
+table {
+    border-collapse:collapse
+    }
+    td, th {
+    border:1px solid #ddd;
+    padding:8px;
+    }
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(46, 46, 46);
+}
