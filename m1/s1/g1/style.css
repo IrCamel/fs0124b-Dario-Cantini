@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+#immagine-curriculum {
+    width: 250px;
+    border-radius: 15%;
+}
+
+#immagine-coding {
+    width: 500px;
+    border-radius: 15%;
+}
+
+.immagine-coding {
+    display: flex;
+    justify-content: center;
+}
+
+.immagine-curriculum {
+    display: flex;
+    justify-content: center;    
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Inter', sans-serif;
+
+}
+
+.liste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liste ul {
+    padding: 0;
+    font-family:'Inter', sans-serif;
+}
+
+.liste ol {
+    padding-right: 7em;
+    font-family:'Inter', sans-serif;
+}
+
+.paragrafo {
+    font-size: large;
+    font-family:'Inter', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Kanit', sans-serif;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: aqua;  
+}
+
+main a:visited {
+ text-decoration: none;
+ color: aqua;
+}
+
+.Copyright {
+ font-family:'Rubik Scribble', system-ui;
+}
+
+#home {
+    font-family:'Inter', sans-serif;
+}
+
+#home a:visited {
+    text-decoration: none;
+    color: aqua; 
+}
+
+
