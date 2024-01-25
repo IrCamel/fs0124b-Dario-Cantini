@@ -1,0 +1,144 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+    } 
+        
+
+
+.pagina {
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(4, 115, 156);
+    margin: 15px;
+    color: white;
+    font-weight: bolder;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#list-navbar {
+    list-style-type: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+#logo {
+    width: 200px;
+    padding-top: 15px;
+}
+
+#titolo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.navbar ul li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+.navbar {
+    padding-bottom: 20px;
+}
+
+.articolo {
+    background-color: white;
+    margin: 15px;
+    color: black;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.articolo h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+article {
+    padding: 15px;
+    text-align: left;
+}
+
+.citazione {
+    color: gray;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 13px;
+}
+
+.primo-testo {
+    word-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.secondo-testo {
+    word-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#lista {
+    padding-left: 10px;
+    word-spacing: 2px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+#lista ul li {
+    padding-bottom: 5px;
+}
+
+.terzo-testo h4{
+    margin: 10px;
+    font-weight: bolder;
+}
+
+.terzo-testo {
+    word-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+#seconda-lista ul li {
+    padding-bottom: 5px;
+    
+}
+
+#seconda-lista {
+    padding: 10px;
+    word-spacing: 2px;
+    margin: 15px;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(68, 127, 222);
+    
+}
+
+#quarto-testo {
+    word-spacing: 1px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+#video-yt {
+    border-radius: 20px;
+    margin: 10px;
+}
