@@ -25,7 +25,7 @@ if (numero_intero2 != numero_intero) {
 let divisibile_1 = 5
 let divisibile_2 = 1
 
-if (divisibile_2 % divisibile_1) {
+if (divisibile_2 % divisibile_1 ===0) {
   console.log("divisibile per 5");
 }
 
