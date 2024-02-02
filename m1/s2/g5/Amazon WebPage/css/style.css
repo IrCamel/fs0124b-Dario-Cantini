@@ -100,16 +100,34 @@ main {
 
 
 .preview div p {
-    display: inline
+    display: inline;
+
+}
+
+p {
+    font-weight: bold;
+}
+
+.immagini {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .immagini img {
     display: inline;
-    width: 230px;
-    height: 260px;
+    width: 400px;
+    height: 450px;
     border-radius: 10px;
     margin: 20px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 10px 10px 5px #dedede;
 }
+
+
+
+
 
 .scritte-2 p {
     display: inline;
