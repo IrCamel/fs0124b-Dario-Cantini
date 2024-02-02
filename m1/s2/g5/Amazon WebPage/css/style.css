@@ -9,6 +9,10 @@ body {
     background-color: rgb(227, 227, 227);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*General Settings*/
 
 header {
