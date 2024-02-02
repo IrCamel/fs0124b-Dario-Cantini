@@ -1,0 +1,157 @@
+/*General Settings*/
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(227, 227, 227);
+}
+
+/*General Settings*/
+
+header {
+    margin: auto;
+    background-color: #222f3e;
+   
+}
+
+header div {
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-top: 10px;    
+}
+
+header div img {
+    width: 150px;
+}
+
+header nav {
+    background-color: #374a60;
+    color: white;
+    padding: 7px;
+    padding-left: 15px;
+}
+
+header nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.banner {
+    background-color: #f56600;
+    margin-top: 30px;
+}
+
+.banner p {
+    padding: 10px;
+    color: white;
+}
+
+.banner2 {
+    margin-top: 30px;
+    background-image: url(../images/bg-image.png);
+    background-repeat: repeat;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+}
+
+#p1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#p2 {
+    font-size: small;
+}
+
+.preview {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.preview .scritte a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(27, 127, 185);
+    font-weight: bold;
+    font-size: small;
+    
+}
+
+
+.preview div p {
+    display: inline
+}
+
+.immagini img {
+    display: inline;
+    width: 230px;
+    height: 260px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.scritte-2 p {
+    display: inline;
+}
+
+
+#shop-gaming {
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(27, 127, 185);
+    font-weight: bold;
+    font-size: small;
+}
+
+.immagine-grande-2 {
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #374a60;
+}
+
+#link-top{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+    
+}
+
+.logo-amazon {
+    background-color: #222f3e;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-amazon img {
+    width: 120px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
