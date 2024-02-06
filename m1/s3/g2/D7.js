@@ -74,7 +74,7 @@ const sommma = function () {
 
 }()
 
-console.log(sommma)
+console.log(sommma) 
 
 /* ESERCIZIO 5 (reduce)
   Scrivi una funzione per sommare i numeri contenuti in un array
