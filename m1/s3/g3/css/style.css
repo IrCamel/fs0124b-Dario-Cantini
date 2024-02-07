@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+main {
+    display: flex;
+    width: 500px;
+    height: fit-content;
+    background-color: rgb(110, 95, 170);
+    border-radius: 20px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#todo-list{
+    padding-top:20px;
+}
+
+#todo-list h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#input{
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+#button{
+    background-color: rgb(185, 140, 227);
+    border-radius: 5px;
+    box-shadow: none;
+    border-color: transparent;
+}
+
