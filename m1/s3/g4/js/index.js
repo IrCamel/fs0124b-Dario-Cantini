@@ -7,12 +7,15 @@
 creaNumeri();
 
 const pescaNumeri = function(){
-    const pressButton = document.querySelectorAll('.pesca-numero').addEventListener('click', function(){
-        const randomNumber = Math.floor(Math.random() *76) +1;
+    const pressButton = document.getElementById("pesca-numeri")
+
+    pressButton.addEventListener('click', function() {
+        const randomNumber = Math.floor(Math.random() *90) +1;
+
         console.log(randomNumber)
 })}
-
-pescaNumeri();
+    
+pescaNumeri()
 
 
 
