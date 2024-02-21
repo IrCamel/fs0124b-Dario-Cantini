@@ -1,31 +1,50 @@
 .navbar{
-    background-color: rgb(255, 222, 161);
     display: flex;
+    background-color: rgb(255, 233, 192);
+    border-radius: 70px;
+    width: 300px;
     justify-content: space-around;
-    gap: 3%;
-    height: 5rem;
     align-items: center;
-    border-radius: 50px;
-    width: 600px;
-    position: absolute;
-    right: 30%;
-    top: 2%;
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    
+
 }
 
 .navbar a{
-    background-color: rgb(255, 201, 100);
-    border-radius: 20px;
-    width: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: fit-content;
-    text-decoration: none;
     color: rgb(57, 45, 13);
+    text-decoration: none;
+    background-color: rgb(255, 201, 100);
+    border-radius: 100px;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 25px;
 }
 
-#logo{
-    width: 20px;
-    margin-right: 10px;
+#shop{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    flex: 2 1 200px;
+    margin: 0;
+    max-width: 200px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#shop img{
+    width: 40px;
+    margin-right: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+
+
 }
