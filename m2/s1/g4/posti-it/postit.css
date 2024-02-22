@@ -1,0 +1,97 @@
+body{
+    background-color: #818589;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 1000px;
+    position: relative;
+    left: 500px;
+    
+}
+
+.post-it{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    position: absolute;
+    transition: width 0.4s, height 0.4s;
+}
+
+.post-it:hover{
+    width: 300px;
+    height: 300px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.post-it h6{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.post-it p{
+    font-weight: 400;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.giallo1, .giallo2, .giallo3{
+    background-image: linear-gradient(#FFEF77, #F9FF60); 
+    transform: rotate(-7deg);
+}
+
+.giallo1{
+    left: 0
+}
+
+.giallo2{
+    left: 0;
+    top: 230px;
+}
+
+.giallo3{
+    left: 480px;
+    top: 240px;
+}
+
+.verde1, .verde2, .verde3{
+    background-image: linear-gradient(#CEF576,#84FB95);
+    transform: rotate(6deg);
+}
+
+.verde1{
+    left: 250px
+}
+
+.verde2{
+    right: 80px;
+}
+
+.verde3{
+    top: 240px;
+    left: 720px;
+}
+
+.viola1, .viola2{
+    background-image: linear-gradient(#A5A4CB,#8989BB);
+    transform: rotate(-10deg)
+}
+
+.viola1{
+    left: 490px;
+}
+
+.viola2{
+    top: 235px;
+    left: 240px ;
+}
+
