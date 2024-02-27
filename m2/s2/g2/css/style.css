@@ -1,0 +1,29 @@
+.main{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.second{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+.destination{
+    width: 75%;
+    font-style: italic;
+}
+
+.first-btn{
+    font-weight: bold;
+}
+
+.section{
+    text-decoration: none;
+}
+
+.card-mockup{
+    margin: 5px;
+    max-width: 46%;
+}
