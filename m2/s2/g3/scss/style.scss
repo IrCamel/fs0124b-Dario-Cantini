@@ -1,0 +1,26 @@
+@import "colori.scss";
+@import "mixins.scss";
+@import "font.scss";
+@import "reset.scss";
+
+body{
+    background-color: $bg-hero;
+    font-family: $font;
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $center-content;
+}
+
+
+a{
+    color: $colore-testo;
+    text-decoration: $decoration;
+}
+
+main{
+    h1{
+        font-weight: $bold;
+        color: $color-title;
+        font-size: $size;
+    }
+}
