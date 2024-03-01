@@ -1,0 +1,23 @@
+.main-container{
+    margin: $marginX ;
+    color: $colorText;
+    .tv-shows{
+        width: fit-content;
+        margin-right: 1.5rem;
+    }
+    .dropdown{
+        width: fit-content;
+    }
+    .mini-icon{
+        @include flexCenter(row, end);
+        .icon-group{
+            margin-right: 70px;
+            border: $borderWhite;
+            border-radius: 0;
+            .primoBtn{
+                border-right: $borderWhite;
+            }
+        }
+    }
+}
+

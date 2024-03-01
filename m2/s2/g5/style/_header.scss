@@ -1,0 +1,25 @@
+.logo{
+    width: 100px;
+}
+
+.nav-link{
+    color: $colorText;
+}
+
+.nav-item{
+    :hover{
+        font-weight: bold;
+        color: $colorText;
+    }
+}
+
+.icon-right{
+    @include flexCenter(row-reverse, center);
+    position: relative;
+    right: 2rem;
+    width: contain;
+}
+
+.avatar{
+    width: 30px;
+}
