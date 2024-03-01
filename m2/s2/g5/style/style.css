@@ -11970,6 +11970,11 @@ textarea.form-control-lg {
   width: 100px;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .logo {
+    width: 80px;
+  }
+}
 .nav-link {
   color: #f0f0f0;
 }
@@ -11991,6 +11996,104 @@ textarea.form-control-lg {
 
 .avatar {
   width: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .avatar {
+    display: none;
+  }
+  .icon-right {
+    display: none;
+  }
+  .nav-item {
+    display: none;
+  }
+  .nav-link {
+    display: none;
+  }
+  .generi {
+    display: none;
+  }
+}
+/*PROFILE PAGE*/
+.profileContainer {
+  max-width: 600px;
+}
+.profileContainer .profile-avatar {
+  width: 100px;
+}
+.profileContainer .accountNameFirst {
+  width: 80%;
+  margin-left: 15px;
+  border-radius: 0;
+}
+.profileContainer .language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 15px;
+  color: #f0f0f0;
+}
+.profileContainer .language .buttonLanguage {
+  max-width: 100px;
+  border: 1px solid #f0f0f0;
+  border-radius: 0;
+  text-align: left;
+}
+.profileContainer .maturity {
+  margin-top: 2rem;
+}
+.profileContainer .maturity h5, .profileContainer .maturity .h5 {
+  margin-left: 15px;
+  color: #f0f0f0;
+}
+.profileContainer .maturity .accountName {
+  max-width: 220px;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 0px;
+  margin-left: 15px;
+  font-weight: 600;
+}
+.profileContainer .maturity p {
+  margin-left: 15px;
+  color: #f0f0f0;
+  margin-top: 20px;
+}
+.profileContainer .maturity .editButton {
+  width: 80px;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 0;
+  margin-left: 15px;
+  border: 1px solid #f0f0f0;
+}
+.profileContainer .playControls {
+  margin-top: 25px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
+}
+.profileContainer .playControls h5, .profileContainer .playControls .h5 {
+  color: #f0f0f0;
+  margin-left: 15px;
+}
+.profileContainer .playControls .form-check {
+  margin-left: 15px;
+  color: #f0f0f0;
+}
+.profileContainer .lastButton button {
+  background: transparent;
+  border: 1px solid #f0f0f0;
+  color: #f0f0f0;
+  padding: 8px;
+}
+.profileContainer .lastButton button :hover {
+  background-color: white;
+  color: #000;
 }
 
 .main-container {
@@ -12020,7 +12123,55 @@ textarea.form-control-lg {
 .main-container .mini-icon .icon-group .primoBtn {
   border-right: 1px solid #f0f0f0;
 }
+.main-container .copertina {
+  max-width: 310px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+  .mini-icon {
+    display: none;
+  }
+  .icon-group {
+    display: none;
+  }
+  .primaSlide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 1000px;
+  margin-top: 7rem;
+  position: relative;
+}
+.footerContainer .icon-footer {
+  position: absolute;
+  top: -50px;
+}
+.footerContainer .icon-footer .single-icon {
+  margin-right: 15px;
+}
+.footerContainer .finalButton {
+  position: absolute;
+  width: 120px;
+  bottom: -50px;
+  right: 54.5rem;
+}
+.footerContainer .finalP {
+  position: absolute;
+  width: 300px;
+  bottom: -110px;
+  right: 43.5rem;
+  color: #f0f0f0;
+}
 
 body {
   background: #141414;
+  overflow-x: hidden;
 }/*# sourceMappingURL=style.css.map */

@@ -9,7 +9,7 @@
         width: fit-content;
     }
     .mini-icon{
-        @include flexCenter(row, end);
+        @include flexCenter(row, end, center);
         .icon-group{
             margin-right: 70px;
             border: $borderWhite;
@@ -19,5 +19,19 @@
             }
         }
     }
+    .copertina{
+        max-width: 310px;
+    }
 }
 
+@media only screen and (min-width: 320px) and (max-width: 991px){
+    .mini-icon{
+        display: none;
+    }
+    .icon-group{
+        display: none;
+    }
+    .primaSlide{
+        @include flexCenter(column, center, center);
+    }
+}

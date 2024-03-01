@@ -1,25 +1,143 @@
-.logo{
+.logo {
     width: 100px;
 }
 
-.nav-link{
+@media only screen and (min-width: 320px) and (max-width: 991px){
+    .logo{
+        width: 80px;
+    }
+}
+
+.nav-link {
     color: $colorText;
 }
 
-.nav-item{
-    :hover{
+.nav-item {
+    :hover {
         font-weight: bold;
         color: $colorText;
     }
 }
 
-.icon-right{
-    @include flexCenter(row-reverse, center);
+.icon-right {
+    @include flexCenter(row-reverse, center, center);
     position: relative;
     right: 2rem;
     width: contain;
 }
 
-.avatar{
+.avatar {
     width: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px){
+    .avatar{
+        display: none;
+    }
+    .icon-right{
+        display: none;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-link{
+        display: none;
+    }
+    .generi{
+        display: none
+    }
+}
+
+/*PROFILE PAGE*/
+
+.profileContainer {
+    max-width: 600px;
+
+    .profile-avatar {
+        width: 100px;
+    }
+
+    .accountNameFirst {
+        width: 80%;
+        margin-left: 15px;
+        border-radius: 0;
+    }
+
+    .language {
+        @include flexCenter(column, center, left);
+        margin-left: 15px;
+        color: $colorText;
+
+        .buttonLanguage {
+            max-width: 100px;
+            border: $borderWhite;
+            border-radius: 0;
+            text-align: left;
+        }
+    }
+
+    .maturity {
+        margin-top: 2rem;
+
+        h5 {
+            margin-left: 15px;
+            color: $colorText;
+        }
+
+        .accountName {
+            max-width: 220px;
+            color: $colorText;
+            border: none;
+            border-radius: 0px;
+            margin-left: 15px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-left: 15px;
+            color: $colorText;
+            margin-top: 20px;
+        }
+
+        .editButton {
+            width: 80px;
+            color: $colorText;
+            border: none;
+            border-radius: 0;
+            margin-left: 15px;
+            border: $borderWhite
+        }
+    }
+
+    .playControls {
+        margin-top: 25px;
+        padding-top: 25px;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        border-bottom: $borderWhite;
+        border-top: $borderWhite;
+
+        h5 {
+            color: $colorText;
+            margin-left: 15px;
+        }
+
+        .form-check {
+            margin-left: 15px;
+            color: $colorText;
+        }
+    }
+
+    .lastButton {
+        button {
+            background: transparent;
+            border: $borderWhite;
+            color: $colorText;
+            padding: 8px;
+            :hover{
+                background-color: white;
+                color: #000;
+            }
+        }
+    }
 }

@@ -1,0 +1,27 @@
+.footerContainer{
+    @include flexCenter(row, space-between, start);
+    max-width: 1000px;
+    margin-top: 7rem;
+    position: relative;
+    .icon-footer{
+        position: absolute;
+        top: -50px;
+        .single-icon{
+            margin-right: 15px;
+        }
+    }
+    .finalButton{
+        position: absolute;
+        width: 120px;
+        bottom: -50px;
+        right: 54.5rem;
+    }
+    .finalP{
+        position: absolute;
+        width: 300px;
+        bottom: -110px;
+        right: 43.5rem;
+        color: $colorText;
+    }
+}
+
