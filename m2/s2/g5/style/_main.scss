@@ -25,17 +25,113 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 991px){
+    .main-container{
+        @include flexCenter(column, center, center);
+        h2{
+            display: none;
+        }
+    }
     .mini-icon{
         display: none;
     }
     .icon-group{
         display: none;
     }
+    .col-2, .col-12{
+        width: 100%;
+        @include flexCenter(row, center, center)
+    }
     .primaSlide, .secondaSlide, .terzaSlide{
         @include flexCenter(column, center, center);
+        width: 100%;
         .copertina{
             margin-top: 10px;
+            width: 100%;
         }
     }
 
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px){
+    .main-container{
+        margin: $marginX ;
+        color: $colorText;
+        .tv-shows{
+            width: fit-content;
+            margin-right: 1.5rem;
+        }
+        .dropdown{
+            width: fit-content;
+        }
+        .mini-icon{
+            @include flexCenter(row, end, center);
+            .icon-group{
+                margin-right: 70px;
+                border: $borderWhite;
+                border-radius: 0;
+                .primoBtn{
+                    border-right: $borderWhite;
+                }
+            }
+        }
+        .copertina{
+            max-width: 165px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1460px){
+    .main-container{
+        margin: $marginX ;
+        color: $colorText;
+        .tv-shows{
+            width: fit-content;
+            margin-right: 1.5rem;
+        }
+        .dropdown{
+            width: fit-content;
+        }
+        .mini-icon{
+            @include flexCenter(row, end, center);
+            .icon-group{
+                margin-right: 70px;
+                border: $borderWhite;
+                border-radius: 0;
+                .primoBtn{
+                    border-right: $borderWhite;
+                }
+            }
+        }
+        .copertina{
+            max-width: 210px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1461px) and (max-width: 1700px){
+    .main-container{
+        margin: $marginX ;
+        color: $colorText;
+        .tv-shows{
+            width: fit-content;
+            margin-right: 1.5rem;
+        }
+        .dropdown{
+            width: fit-content;
+        }
+        .mini-icon{
+            @include flexCenter(row, end, center);
+            .icon-group{
+                margin-right: 70px;
+                border: $borderWhite;
+                border-radius: 0;
+                .primoBtn{
+                    border-right: $borderWhite;
+                }
+            }
+        }
+        .copertina{
+            max-width: 240px;
+        }
+    }
 }
