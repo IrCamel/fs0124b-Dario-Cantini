@@ -12127,18 +12127,21 @@ textarea.form-control-lg {
   max-width: 310px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 991px) {
+@media only screen and (min-width: 0px) and (max-width: 991px) {
   .mini-icon {
     display: none;
   }
   .icon-group {
     display: none;
   }
-  .primaSlide {
+  .primaSlide, .secondaSlide, .terzaSlide {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .primaSlide .copertina, .secondaSlide .copertina, .terzaSlide .copertina {
+    margin-top: 10px;
   }
 }
 .footerContainer {

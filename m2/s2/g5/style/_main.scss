@@ -24,14 +24,18 @@
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 991px){
+@media only screen and (min-width: 0px) and (max-width: 991px){
     .mini-icon{
         display: none;
     }
     .icon-group{
         display: none;
     }
-    .primaSlide{
+    .primaSlide, .secondaSlide, .terzaSlide{
         @include flexCenter(column, center, center);
+        .copertina{
+            margin-top: 10px;
+        }
     }
+
 }
