@@ -11970,7 +11970,7 @@ textarea.form-control-lg {
   width: 100px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 991px) {
+@media only screen and (min-width: 0px) and (max-width: 991px) {
   .logo {
     width: 80px;
   }
@@ -11998,7 +11998,7 @@ textarea.form-control-lg {
   width: 30px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 991px) {
+@media only screen and (min-width: 0px) and (max-width: 991px) {
   .avatar {
     display: none;
   }
