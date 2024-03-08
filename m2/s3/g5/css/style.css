@@ -1,0 +1,31 @@
+.logo>img{
+   width: 100px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(11, 11, 36);
+}
+
+.navbar>a{
+    width: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.eliminaBtn{
+    width: 15rem;
+}
+
+.resetBtn{
+    width: 15rem;
+    border: 1px solid black;
+    margin-left: 24rem;
+}
+
+.saveBtn{
+    width: 15rem;
+}
+
