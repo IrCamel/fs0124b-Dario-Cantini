@@ -2,21 +2,6 @@
 const apiKey = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWVhZGYwODJkN2IxMTAwMTkwZTZlMjAiLCJpYXQiOjE3MDk4OTEzMzYsImV4cCI6MTcxMTEwMDkzNn0.sINEtQxwEA-rQHSUfSGXGTYYHHya_4AgnXVe4tRC-2g";
 
 
-productDetail => {
-
-    const nameInput = document.getElementById('name')
-    const descriptionInput = document.getElementById('description')
-    const brandInput = document.getElementById('brand')
-    const UrlImgInput = document.getElementById('imageUrl')
-    const priceInput = document.getElementById('price')
-
-    nameInput.value = productDetail.name
-    descriptionInput.value = productDetail.description
-    brandInput.value = productDetail.brand
-    UrlImgInput.value = productDetail.imageUrl
-    priceInput.value = productDetail.price
-};
-
 const formRif = document.getElementById('form')
 formRif.addEventListener('submit', function (e) {
     e.preventDefault()
@@ -45,6 +30,7 @@ formRif.addEventListener('submit', function (e) {
             Authorization: apiKey
         },
     }).then(res => res.json())
-    .then(res => {
-    location.href = 'index.html'
-})})
+        .then(res => {
+            location.href = 'index.html'
+        })
+})
