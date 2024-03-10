@@ -16,12 +16,16 @@ fetch("https://striveschool-api.herokuapp.com/api/product/", {
       let image = cardPhone.querySelector('.card-img-top')
       let name = cardPhone.querySelector('.card-title')
       let description = cardPhone.querySelector('.card-text');
+      let price = cardPhone.querySelector('.price');
+      let brand = cardPhone.querySelector('.brand');
       let modBtn = cardPhone.querySelector('#modBtn');
       let detailsBtn = cardPhone.querySelector('#detailsBtn')
 
       image.src = phone.imageUrl;
       name.innerText = phone.name;
       description.innerText = phone.description;
+      price.innerText = phone.price + "€"
+      brand.innerText = phone.brand
       modBtn.href = `modifica.html?id=${phone._id}`;
       detailsBtn.href = `details.html?id=${phone._id}`
 

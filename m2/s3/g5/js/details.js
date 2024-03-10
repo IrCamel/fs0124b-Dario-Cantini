@@ -23,6 +23,6 @@ fetch(`https://striveschool-api.herokuapp.com/api/product/${id}`, {
         descriptionInput.innerText = details.description;
         brandInput.innerText = details.brand;
         UrlImgInput.src = details.imageUrl;
-        priceInput.innerText = details.price;
+        priceInput.innerText = details.price + " €";
 
     })
