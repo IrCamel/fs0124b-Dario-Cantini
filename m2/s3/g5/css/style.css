@@ -22,10 +22,13 @@
 .resetBtn{
     width: 15rem;
     border: 1px solid black;
-    margin-left: 24rem;
 }
 
 .saveBtn{
     width: 15rem;
+}
+
+.card{
+    width: 14rem;
 }
 
