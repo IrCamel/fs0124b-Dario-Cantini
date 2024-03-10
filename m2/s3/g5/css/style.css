@@ -15,6 +15,10 @@
     text-decoration: none;
 }
 
+h6{
+    max-width: 70rem;
+}
+
 .eliminaBtn{
     width: 15rem;
 }
@@ -30,6 +34,10 @@
 
 .card{
     width: 14rem;
+}
+
+.card-img-top{
+    height: 200px;
 }
 
 .card-text{
@@ -49,7 +57,7 @@
     max-width: 70px;
 }
 
-#imageUrl{
+.imageUrlDetails{
     max-width: 200px;
 }
 
