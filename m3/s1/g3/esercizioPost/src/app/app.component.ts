@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Post } from './Models/post';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +7,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'esercizioPost';
 
-  fetch=('../assets/db.json')
+articoliArr: Post[] = [];
 
-
+ngOnInit() {
+  fetch('../assets/db.json')
+  .then((articoli) => articoli.json())
+  .then((articolo) => (this.articoliArr = articolo.posts))
+  }
 }
