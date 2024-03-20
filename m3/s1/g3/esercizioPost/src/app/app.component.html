@@ -35,4 +35,10 @@
   </div>
 </nav>
 
-{{articoliArr|json}}
+<table>
+  <tr *ngFor="let pizza of articoliArr; let id = index">
+    <td>{{id + 1}}</td>
+    <td>{{articoliArr}}</td>
+    <td>{{articoliArr[1]}}</td>
+  </tr>
+</table>
