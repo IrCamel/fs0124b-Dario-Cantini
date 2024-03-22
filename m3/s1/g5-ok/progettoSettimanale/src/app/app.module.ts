@@ -8,7 +8,26 @@ import { AutoCardComponent } from './auto-card/auto-card.component';
 import { FordComponent } from './ford/ford.component';
 import { AudiComponent } from './audi/audi.component';
 import { FiatComponent } from './fiat/fiat.component';
-import { AudioIntroComponent } from './audio-intro/audio-intro.component';
+import { Routes } from '@angular/router';
+
+const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent,
+  },
+  {
+    path: 'audi',
+    component: AudiComponent,
+  },
+  {
+    path: 'fiat',
+    component: FiatComponent,
+  },
+  {
+    path: 'ford',
+    component: FordComponent,
+  },
+];
 
 @NgModule({
   declarations: [
@@ -19,7 +38,6 @@ import { AudioIntroComponent } from './audio-intro/audio-intro.component';
     FordComponent,
     AudiComponent,
     FiatComponent,
-    AudioIntroComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,31 @@
+<body>
+
+  <app-nav-bar></app-nav-bar>
+
+  <div class="m-5 text-white text-center">
+    <h2>Benvenuto nel salone del presidente!</h2>
+  </div>
+
+  <div class="container">
+    <div class="row rowSett">
+      <div class="col-6" *ngFor="let auto of audi">
+
+        <div class="card mainCard my-3">
+          <img src="{{auto.modelImage}}" class="card-img-top autoImage" alt="...">
+          <div class="card-body">
+            <h3 class="card-title  textSett">{{auto.brand}}</h3>
+            <h6 class="card-title  textSett">{{auto.model}}</h6>
+            <span class="badge rounded-pill pill">{{auto.year}}</span>
+            <p class="card-text  textSett">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <span class="badge rounded-pill pill d-block my-2 w-25">{{auto.price}}€</span>
+            <span class="badge rounded-pill pill2 d-block my-2" [ngClass]="{'bg-success': auto.available, 'bg-danger': !auto.available}">Disponibilità</span>
+            <a href="#" class="btn mainBtn">Acquista Ora!</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+
