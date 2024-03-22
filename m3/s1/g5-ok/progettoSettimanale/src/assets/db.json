@@ -52,5 +52,14 @@
         "year": 2020,
         "price": 41700,
         "available": false
-    }
+    },
+    {
+      "brand": "Fiat",
+      "brandLogo": "https://picsum.photos/100/100?random=8",
+      "model": "Flinstone",
+      "modelImage": "https://dam.nmhmedia.sk/image/cf46f7fb-9f44-4843-8dea-adc2e7e009be_dam-urlxt5fog.jpg/1024/0",
+      "year": 234,
+      "price": 10000,
+      "available": true
+  }
 ]
