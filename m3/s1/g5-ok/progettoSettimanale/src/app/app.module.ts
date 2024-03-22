@@ -8,6 +8,7 @@ import { AutoCardComponent } from './auto-card/auto-card.component';
 import { FordComponent } from './ford/ford.component';
 import { AudiComponent } from './audi/audi.component';
 import { FiatComponent } from './fiat/fiat.component';
+import { AudioIntroComponent } from './audio-intro/audio-intro.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FiatComponent } from './fiat/fiat.component';
     AutoCardComponent,
     FordComponent,
     AudiComponent,
-    FiatComponent
+    FiatComponent,
+    AudioIntroComponent
   ],
   imports: [
     BrowserModule,
