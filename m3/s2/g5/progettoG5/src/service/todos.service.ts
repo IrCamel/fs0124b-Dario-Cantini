@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
-import {iTodo} from '../interface/todos.interface'
+import {iTodo} from '../interface/todos.interface';
+import { iUser } from '../interface/user.interface';
+import { UserService } from './user.service';
 
 @Injectable({
   providedIn: 'root'
@@ -907,6 +909,16 @@ export class TodosService {
       "userId":32
     }
   ]
+
+  getAll(){
+    return this.todos
+  }
+
+  getMyId(){
+
+  }
 }
+
+
 export { iTodo };
 

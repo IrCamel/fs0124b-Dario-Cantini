@@ -1,10 +1,10 @@
-<div class="m-5"  *ngFor="let user of users">
+<div class="m-5"  *ngFor="let user of todos">
   <div class="card">
-    <h3 class="card-header">{{user.title}}</h3>
+    <h3 class="card-header">{{users[user.userId - 1].title}}</h3>
     <div class="card-body">
-      <h3 class="card-title">{{user.firstName}} {{user.lastName}}</h3>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <h6 class="card-title">{{user.email}}</h6>
+      <h3 class="card-title">{{users[user.userId - 1].firstName}} {{users[user.userId - 1].lastName}}</h3>
+      <p class="card-text">{{user.todo}}</p>
+      <h6 class="card-title">{{users[user.userId - 1].email}}</h6>
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>

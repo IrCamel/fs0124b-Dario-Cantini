@@ -1,5 +1,7 @@
+import { iTodo } from './../interface/todos.interface';
+import { TodosService } from './todos.service';
 import { Injectable } from '@angular/core';
-import {iUser} from '../interface/user.interface'
+import {iUser} from '../interface/user.interface';
 
 @Injectable({
   providedIn: 'root'
