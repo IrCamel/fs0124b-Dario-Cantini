@@ -1,14 +1,15 @@
 <nav class=" navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid ">
-    <a class="navbar-brand" routerLink="/">Navbar</a>
+    <a class="navbar-brand" routerLink="/">To Do List</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Complete Task</a>
-        <a class="nav-link" href="#">Uncomplete Task</a>
+        <a class="nav-link active" routerLink="/">Home</a>
+        <a class="nav-link active" routerLink="/complete-task">Complete Task</a>
+        <a class="nav-link active" routerLink="/uncomplete-task">Uncomplete Task</a>
+        <a class="nav-link active" routerLink="/user-task">User Task</a>
       </div>
     </div>
   </div>
