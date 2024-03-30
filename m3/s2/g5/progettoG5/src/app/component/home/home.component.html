@@ -1,11 +1,11 @@
 <div class="m-5"  *ngFor="let user of todos">
-  <div class="card">
+  <div [ngClass]="{'text-bg-success': user.completed, 'text-bg-danger': !user.completed}" class="card">
     <h3 class="card-header">{{users[user.userId - 1].title}}</h3>
     <div class="card-body">
       <h3 class="card-title">{{users[user.userId - 1].firstName}} {{users[user.userId - 1].lastName}}</h3>
       <p class="card-text">{{user.todo}}</p>
       <h6 class="card-title">{{users[user.userId - 1].email}}</h6>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
 </div>
+
