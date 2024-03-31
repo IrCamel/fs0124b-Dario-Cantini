@@ -1,0 +1,17 @@
+<h2 class="mainTitleFeed">
+  Recensioni dei nostri giovincelli
+</h2>
+<h6 class="secondTitle">
+  (Si, ho fatto un service dedicato ed inutile il giorno di pasqua)
+</h6>
+<div class="container mainContainer">
+  <div class="card mainCard" *ngFor="let feedback of feedbacks">
+    <img src="{{feedback.img}}" class="card-img-top mainImg">
+    <div class="card-body">
+      <p class="card-text"> <span class="span">User:</span> {{feedback.name}} {{feedback.surname}}</p>
+      <p class="card-text"><span class="span">Age:</span> {{feedback.age}}</p>
+      <p class="card-text"><span class="span">Feedback:</span> ⭐⭐⭐⭐⭐ </p>
+      <p class="card-text"><span class="span">Comment: </span> {{feedback.feedback}}</p>
+    </div>
+  </div>
+</div>

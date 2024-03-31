@@ -8,6 +8,8 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { UncompleteTaskComponent } from './component/uncomplete-task/uncomplete-task.component';
 import { CompleteTaskComponent } from './component/complete-task/complete-task.component';
 import { FormsModule } from '@angular/forms';
+import { FeedbackComponent } from './component/feedback/feedback.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     NavbarComponent,
     UncompleteTaskComponent,
-    CompleteTaskComponent
+    CompleteTaskComponent,
+    FeedbackComponent
+
   ],
   imports: [
     BrowserModule,

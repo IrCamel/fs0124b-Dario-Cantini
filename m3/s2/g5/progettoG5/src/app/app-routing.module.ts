@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './component/home/home.component';
 import { CompleteTaskComponent } from './component/complete-task/complete-task.component';
 import { UncompleteTaskComponent } from './component/uncomplete-task/uncomplete-task.component';
+import { FeedbackComponent } from './component/feedback/feedback.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,10 @@ const routes: Routes = [
     path: 'uncomplete-task',
     component: UncompleteTaskComponent,
   },
+  {
+    path: 'feedback',
+    component: FeedbackComponent
+  }
 ];
 
 @NgModule({

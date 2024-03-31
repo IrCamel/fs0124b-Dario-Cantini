@@ -1,0 +1,57 @@
+.mainTitleFeed {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  color: #002460;
+}
+
+.mainTitleFeed:hover{
+    color: #09C5E7;
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
+
+.secondTitle{
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-style: italic;
+  color: #002460;
+  cursor: pointer;
+}
+
+.secondTitle:hover{
+  color: #09C5E7;
+  transition: 0.1s;
+  transform: scale(1.1);
+}
+
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 50rem;
+  flex-wrap: wrap;
+  p{
+    font-family: Verdana, sans-serif;
+  }
+  .mainCard {
+    margin-inline: 2rem;
+    max-width: 18rem;
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .mainImg {
+      max-height: 270px;
+    }
+    .span{
+      font-weight: bold;
+    }
+  }
+}
