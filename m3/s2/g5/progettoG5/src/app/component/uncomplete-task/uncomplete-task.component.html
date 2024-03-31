@@ -1,1 +1,13 @@
-<p>uncomplete-task works!</p>
+<div class="m-5" *ngFor="let user of todos">
+  <div [ngClass]="{'cardCompleted': user.completed, 'cardUncompleted': !user.completed}" class="card text-white">
+    <h3 class="card-header text-white">{{users[user.userId - 1].title}}</h3>
+    <div class="card-body d-flex text-white">
+      <input [(ngModel)]="user.completed" type="checkbox">
+      <h3 class="card-title mx-3 py-0">{{users[user.userId - 1].firstName}} {{users[user.userId - 1].lastName}}</h3>
+    </div>
+    <div class="card-body py-0">
+      <p class="card-text"> {{user.todo}}</p>
+      <h6 class="card-title">{{users[user.userId - 1].email}}</h6>
+    </div>
+  </div>
+</div>

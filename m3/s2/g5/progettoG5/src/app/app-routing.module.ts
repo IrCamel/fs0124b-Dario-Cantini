@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './component/home/home.component';
 import { CompleteTaskComponent } from './component/complete-task/complete-task.component';
 import { UncompleteTaskComponent } from './component/uncomplete-task/uncomplete-task.component';
-import { UserTaskComponent } from './component/user-task/user-task.component';
+
 
 const routes: Routes = [
   {
@@ -18,10 +18,6 @@ const routes: Routes = [
     path: 'uncomplete-task',
     component: UncompleteTaskComponent,
   },
-  {
-    path: 'user-task',
-    component: UserTaskComponent
-  }
 ];
 
 @NgModule({

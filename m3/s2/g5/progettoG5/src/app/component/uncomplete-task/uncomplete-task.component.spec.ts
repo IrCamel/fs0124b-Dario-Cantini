@@ -11,7 +11,7 @@ describe('UncompleteTaskComponent', () => {
       declarations: [UncompleteTaskComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(UncompleteTaskComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

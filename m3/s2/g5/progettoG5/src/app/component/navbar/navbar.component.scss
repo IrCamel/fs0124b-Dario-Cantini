@@ -1,3 +1,13 @@
-.navbar{
-  background-color: black;
+.mainContainer{
+  display: flex;
+  font-family: Verdana, sans-serif;
+  a:hover{
+    color: #09C5E7;
+    transition: 0.1s;
+    transform: scale(1.1);
+  }
+  .logo{
+    width: 40px;
+    cursor: pointer
+  }
 }

@@ -914,9 +914,15 @@ export class TodosService {
     return this.todos
   }
 
-  getMyId(){
-
+  getCompleteTask(){
+    return this.todos.filter(completed => completed.completed)
   }
+
+  getUnCompleteTask(){
+    return this.todos.filter(completed => !completed.completed)
+  }
+
+
 }
 
 
