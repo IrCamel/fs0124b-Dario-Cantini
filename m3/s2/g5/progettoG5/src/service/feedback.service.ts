@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { iFeedback } from '../interface/feedback';
+import { iFeedback } from '../interface/feedback.interface';
 
 @Injectable({
   providedIn: 'root'

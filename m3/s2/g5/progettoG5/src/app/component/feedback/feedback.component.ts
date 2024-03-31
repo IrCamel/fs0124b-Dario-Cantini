@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FeedbackService } from '../../../service/feedback.service';
-import { iFeedback } from '../../../interface/feedback';
+import { iFeedback } from '../../../interface/feedback.interface';
 
 @Component({
   selector: 'app-feedback',
