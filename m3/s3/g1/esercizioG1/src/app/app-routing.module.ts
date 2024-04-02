@@ -20,9 +20,6 @@ const routes: Routes = [
   { path: 'account',
   loadChildren: () => import('./pages/account/account.module').then(m => m.AccountModule)
   },
-  { path: 'shared-module',
-  loadChildren: () => import('./shared-module/shared-module.module').then(m => m.SharedModuleModule)
-  }
 ];
 
 @NgModule({
