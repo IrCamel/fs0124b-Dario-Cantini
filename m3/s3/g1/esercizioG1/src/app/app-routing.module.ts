@@ -14,7 +14,8 @@ const routes: Routes = [
   {
     path: 'contatti',
     loadChildren: () => import('./pages/contatti/contatti.module').then(m => m.ContattiModule),
-    canActivate:[AuthGuard]
+    canActivate:[AuthGuard],
+    canActivateChild: [AuthGuard]
   },
   { path: 'account',
   loadChildren: () => import('./pages/account/account.module').then(m => m.AccountModule)
