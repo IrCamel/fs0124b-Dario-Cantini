@@ -1,5 +1,7 @@
 {
   "users": [],
-  "favorites": [],
-  "movies-popular": []
+  "favorites" : [],
+  "movies-popular" : [
+
+  ]
 }
