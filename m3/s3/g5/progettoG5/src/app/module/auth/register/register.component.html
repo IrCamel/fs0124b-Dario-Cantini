@@ -1,1 +1,17 @@
-<p>register works!</p>
+
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Inserisci il tuo nome" name = 'nome' [(ngModel)]="registerData.name"]]>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Inserisci la tua email" name = 'email' [(ngModel)]="registerData.email"]]>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Inserisci la tua password" name = 'password' [(ngModel)]="registerData.password"]]>
+    </div>
+    <button (click)="signUp()" type="submit" class="btn btn-primary">Registrati</button>
+  </form>
+
