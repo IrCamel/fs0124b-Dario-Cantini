@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ILoginData } from '../../models/i-login-data';
 import { AuthService } from '../auth.service';
 import { IUser } from '../../models/i-user';
 import { Router } from '@angular/router';

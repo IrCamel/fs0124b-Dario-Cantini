@@ -17,6 +17,48 @@
       "password": "$2a$10$3taUkP5SAtq9yfKsPkmGZeNlnA1co6UIu.yoqgFqaGHiBRPF./jrO",
       "name": "dwadad",
       "id": 3
+    },
+    {
+      "email": "bracciodiferro@gmail.com",
+      "password": "$2a$10$Gq4ckiAcExcDccIhUyddXe6MzXneyOBDXTPKFKmiN2OZHYfgUY93e",
+      "name": "Michele",
+      "id": 4
+    },
+    {
+      "email": "a@b.it",
+      "password": "$2a$10$joWV7fAlPGpZe//g8l16OOyH0cQYtWav5Jg53gHuh70POpFCNnMsu",
+      "name": "Ciao",
+      "id": 5
+    },
+    {
+      "email": "porca@gmail.it",
+      "password": "$2a$10$/t/DpSf8DQS/geG7dC3s7eSN/uXhCZ4Nu8d/ecN3M07CVDgZLbpTa",
+      "name": "Mario",
+      "id": 6
+    },
+    {
+      "email": "rosa@gmail.com",
+      "password": "$2a$10$FHhUMCSH8DchRIdtRg8Dk.i3q6.FMYVM.ZV5zBNvSgs2gxhmsBiky",
+      "name": "Gianluca",
+      "id": 7
+    },
+    {
+      "email": "gianluca@gmail.it",
+      "password": "$2a$10$UgsqR6gTYeAXU0WgNg5Gzu38vzaARAQ0RSHkxQo2cZe4QcE4sv/AG",
+      "name": "Gianluca",
+      "id": 8
+    },
+    {
+      "email": "giacomo@gmail.com",
+      "password": "$2a$10$J9c4bQ3YuqifRx1iH/uNE.cdcJ8PAQ5DaJr3xXoFdGtcAoqYd9W/G",
+      "name": "giacomo",
+      "id": 9
+    },
+    {
+      "email": "dario@gmail.it",
+      "password": "$2a$10$1oICw6MdT23.O7w1eofidO.ga7IQl6vG5dSPkLUQ.8e/HTEo.YrnK",
+      "name": "Dario",
+      "id": 10
     }
   ],
   "movies-popular": [

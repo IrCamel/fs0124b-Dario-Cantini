@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { AuthService } from '../auth.service';
+import { Router } from '@angular/router';
+import { IUser } from '../../models/i-user';
+import { ILoginData } from '../../models/i-login-data';
 
 @Component({
   selector: 'app-login',
@@ -7,4 +11,18 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  loginData: ILoginData = {
+    email: "",
+    password: ""
+  }
+
+  constructor(private authSvc: AuthService, private router:Router){ }
+
+
+  signIn(){
+    this.authSvc.login(this.loginData)
+    .subscribe( data => {
+      this.router.navigate(['/dashboard'])
+    })
+  }
 }
