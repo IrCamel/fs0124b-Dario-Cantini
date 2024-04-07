@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { BehaviorSubject, Observable, map, pipe, tap } from 'rxjs';
 import { IUser } from '../models/i-user';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { ILoginData } from '../models/i-login-data';
 
   type AccessData = {

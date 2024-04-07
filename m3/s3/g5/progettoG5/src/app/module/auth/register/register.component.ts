@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 export class RegisterComponent {
 
+
   registerData: Partial<IUser> = {}
 
   constructor(private authSvc: AuthService, private router:Router){}
@@ -18,7 +19,7 @@ export class RegisterComponent {
   signUp(){
     this.authSvc.register(this.registerData)
     .subscribe( data => {
-      this.router.navigate(['dashboard'])
+      this.router.navigate(['/dashboard'])
     })
   }
 

@@ -5,15 +5,11 @@ import { RegisterComponent } from './register/register.component';
 import { AuthComponent } from './auth.component';
 
 const routes: Routes = [
-  {
-    path: 'auth',
-    component: AuthComponent
-  },
-  { path: '',
+  { path: 'login',
     component: LoginComponent
   },
   {
-    path: 'register',
+    path: '',
     component: RegisterComponent
   }
 ];
