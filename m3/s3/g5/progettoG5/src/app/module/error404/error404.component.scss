@@ -1,0 +1,16 @@
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title {
+    margin-top: 20px;
+    color: #0060AE;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .image{
+    width: 800px;
+  }
+}

@@ -16,7 +16,8 @@ const routes: Routes = [
   { path: 'profile',
   loadChildren: () => import('./module/profile/profile.module').then(m => m.ProfileModule),
   canActivate: [AuthGuard]
-  }
+  },
+  { path: '**', loadChildren: () => import('./module/error404/error404.module').then(m => m.Error404Module) }
 ];
 
 @NgModule({
