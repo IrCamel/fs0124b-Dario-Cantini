@@ -59,6 +59,12 @@
       "password": "$2a$10$1oICw6MdT23.O7w1eofidO.ga7IQl6vG5dSPkLUQ.8e/HTEo.YrnK",
       "name": "Dario",
       "id": 10
+    },
+    {
+      "email": "gigi@gmail.com",
+      "password": "$2a$10$tu9INstjKlNHHX4me/ZIw.X6AY7OYt6wKL/QELHNLlXNbrw2AYH5q",
+      "name": "luigi",
+      "id": 11
     }
   ],
   "movies-popular": [
