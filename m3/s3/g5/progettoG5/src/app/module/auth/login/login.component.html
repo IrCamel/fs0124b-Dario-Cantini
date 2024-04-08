@@ -1,4 +1,7 @@
 <div class="container">
+  <h1 class="title text-center">
+    Accedi al tuo account
+  </h1>
   <form>
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email</label>
@@ -10,4 +13,10 @@
     </div>
     <button (click)="signIn()" class="btn btn-primary">Login</button>
   </form>
+  <h3 class="title text-center">
+    Non sei ancora registrato? No problem!
+  </h3>
+  <div class="text-center my-5">
+    <a class="btn btn-primary" routerLink="/auth/register">Clicca qui per registrarti</a>
+  </div>
 </div>

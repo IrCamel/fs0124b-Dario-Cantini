@@ -38,6 +38,7 @@
             ],
             "styles": [
               "src/styles.scss",
+              "src/style.css",
               "node_modules/bootstrap/scss/bootstrap.scss"
             ],
             "scripts": []

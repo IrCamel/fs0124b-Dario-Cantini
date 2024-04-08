@@ -1,0 +1,48 @@
+.title {
+  margin-top: 20px;
+  color: #0060AE;
+  font-weight: 600;
+  cursor: pointer;
+}
+.dati{
+  color: #0060AE;
+}
+
+.image{
+  width: 600px;
+  position: absolute;
+  right: 14rem;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .image{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .image{
+    width: 600px;
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .image{
+    width: 600px;
+    position: absolute;
+    right: 4rem;
+    bottom: 0;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .image{
+    width: 600px;
+    position: absolute;
+    right: 14rem;
+    bottom: 0;
+  }
+}

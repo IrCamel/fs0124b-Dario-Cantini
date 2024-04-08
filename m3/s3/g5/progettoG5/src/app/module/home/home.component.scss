@@ -1,0 +1,27 @@
+
+.main{
+  .title{
+    margin-top: 20px;
+    color: #0060AE;
+    font-weight: 600;
+    cursor: pointer;
+    .span{
+      font-weight: 700;
+    }
+  }
+  .title:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+  }
+  .par{
+    margin-top: 20px;
+    color: #0060AE;
+    cursor: pointer
+  }
+  .image{
+    width: 350px;
+    margin-top: 40px
+  }
+}
+
+

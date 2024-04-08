@@ -1,1 +1,21 @@
-<p>dashboard works!</p>
+<h1 class="text-center title my-3">
+  Catalogo di film
+</h1>
+
+<div class="container">
+  <img class="image" src="../../../assets/8e77903a-39ba-495a-908f-fe6ffab6cb3f.png">
+  <div *ngFor="let movie of movies" class="main-container">
+    <div class="card__container">
+      <article class="card__article">
+        <img [src]="movie.image" alt="image" class="card__img">
+
+        <div class="card__data">
+          <span class="card__description">{{movie.genres}}</span>
+          <h2  class="card__title fs-3">{{movie.title}}</h2>
+          <p  class="card__button">{{movie.plot}}</p>
+        </div>
+      </article>
+    </div>
+  </div>
+  <img class="image2" src="../../../assets/ce121e0e-c15b-4d55-92d7-0d287b337acd.png">
+</div>
