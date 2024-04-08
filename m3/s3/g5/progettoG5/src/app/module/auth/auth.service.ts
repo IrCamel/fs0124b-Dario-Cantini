@@ -21,10 +21,15 @@ export class AuthService {
   authSubject = new BehaviorSubject<IUser | null>(null);
 
   user$ = this.authSubject.asObservable()
-  isLoggedIn$ = this.user$.pipe(map(user => !!user))
+  isLoggedIn$ = this.user$.pipe(
+    map(user => !!user),
+    tap(user => this.syncIsLoggedIn = !!user),
+  )
 
   registerUrl:string = environment.registerUrl;
   loginUrl:string = environment.loginUrl;
+
+  syncIsLoggedIn = false;
 
   constructor(private http:HttpClient) { }
 
