@@ -66,8 +66,5 @@ public class program {
 
         player p = new player();
         p.insertData();
-
-
     }
-
 }
