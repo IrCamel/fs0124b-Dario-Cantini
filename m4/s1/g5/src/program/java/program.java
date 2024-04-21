@@ -1,6 +1,9 @@
 package program.java;
 
 import player.java.audio;
+import player.java.image;
+import player.java.player;
+import player.java.video;
 
 public class program {
 
@@ -36,10 +39,35 @@ public class program {
 
     public static void main(String[] args) {
 
-        audio a = new audio("prova",5,7);
+        // qui ho fatto le prove per vedere se le classi funzionassero correttamente
+
+        /* audio a = new audio("prova",5,7);
         a.esegui();
         a.alzaVolume();
         a.abbassaVolume();
+
+       video v = new video("provavideo",2,8,3);
+       v.esegui();
+       v.alzaVolume();
+       v.abbassaVolume();
+       v.aumentaLuminosita();
+       v.diminuisciLuminosita();
+
+
+       image i = new image("provavideo",3);
+       i.esegui();
+       i.aumentaLuminosita();
+       i.diminuisciLuminosita();
+
+
+         */
+
+// creo una nuova istanza di player e lancio il metodo insertData per far partire il programma
+
+        player p = new player();
+        p.insertData();
+
+
     }
 
 }
