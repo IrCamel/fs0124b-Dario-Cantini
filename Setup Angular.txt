@@ -1,0 +1,21 @@
+ng g s cartella/file per creare un service
+ng g interface cartella/file per creare un interfaccia
+per navigare tra le pagine scrivere i path in routing.module, collegarli ad app.module e usare routerLink al posto di href
+
+Installare Angular con npm install -g @angular/cli (se avete gia installato Angular andate al passaggio 2)
+Creazione Cartella ( ng new nomeApplicazione --no-standalone )
+Installazione Bootstrap. ( Attenzione: verificare di trovarsi nella cartella creata )
+Andare in angular.json, trovare il primo style collegare "node_modules/bootstrap/scss/bootstrap.scss"
+Creazione dei componenti in terminale ( ng g c (Nome Cartella Da Creare)/ (nome cartella contenente i components) )
+Per attivare il "live server"  ng s -o
+
+ng g directive nome file
+ng g service nome file
+ng g interface nome file
+ng g pipe nome file
+ng g interceptor --functional=false
+
+ng g guard cartella/nome --functional=false
+ng g module cartella/file --route file --module app.module
+ng g m shared
+ng g c shared/nome file
